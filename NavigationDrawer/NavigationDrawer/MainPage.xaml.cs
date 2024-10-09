@@ -1,5 +1,5 @@
 ﻿using Microsoft.Maui.Platform;
-using Windows.Networking.NetworkOperators;
+
 
 namespace NavigationDrawer {
     public partial class MainPage : ContentPage {

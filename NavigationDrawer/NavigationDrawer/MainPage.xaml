@@ -4,7 +4,7 @@
              xmlns:navigationdrawer="clr-namespace:Syncfusion.Maui.NavigationDrawer;assembly=Syncfusion.Maui.NavigationDrawer"
              x:Class="NavigationDrawer.MainPage">
 
-
+    <Grid>
     <navigationdrawer:SfNavigationDrawer x:Name="navigationDrawer">
         <navigationdrawer:SfNavigationDrawer.DrawerSettings>
             <navigationdrawer:DrawerSettings DrawerWidth="250"
@@ -71,4 +71,5 @@
             </Grid>
         </navigationdrawer:SfNavigationDrawer.ContentView>
     </navigationdrawer:SfNavigationDrawer>
+    </Grid>
 </ContentPage>
