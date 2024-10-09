@@ -87,16 +87,9 @@ This section explains, how to navigate to a page in .NET MAUI NavigationDrawer
 **C#**
 
 ```
-public NewPage()
-{
-	Content = new VerticalStackLayout
-	{
-		Children = {
-			new Label { HorizontalOptions = LayoutOptions.Center, 
-				VerticalOptions = LayoutOptions.Center, 
-				Text = "Welcome to .NET MAUI!"
-			}
-		}
-	};
-}
+ <VerticalStackLayout>
+     <Label Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+ </VerticalStackLayout>
 ```
